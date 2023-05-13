@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClCompile Include="interal\application.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="child\cat.h" />
+    <ClInclude Include="child\dog.h" />
+    <ClInclude Include="child\hamster.h" />
+    <ClInclude Include="child\parrot.h" />
+    <ClInclude Include="parent\pet.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

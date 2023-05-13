@@ -4,10 +4,33 @@
     <Filter Include="interal">
       <UniqueIdentifier>{e8da6dab-8982-4c8d-8f59-181eb8c724fd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="parent">
+      <UniqueIdentifier>{30e94d71-bf63-4f99-b3fd-729f5e135b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child">
+      <UniqueIdentifier>{38b50cd7-f383-43bd-87a7-e331c0cb1025}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="interal\application.cpp">
       <Filter>interal</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="parent\pet.h">
+      <Filter>parent</Filter>
+    </ClInclude>
+    <ClInclude Include="child\dog.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\cat.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\parrot.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\hamster.h">
+      <Filter>child</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
