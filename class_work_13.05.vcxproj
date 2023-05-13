@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="interal\application.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="child_\queue.h" />
+    <ClInclude Include="child_\stack.h" />
+    <ClInclude Include="parent_\list.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
